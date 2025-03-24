@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="415dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="176dp"
+        android:background="#80000000"
+        android:shadowColor="#0b0b0b"
+        android:shadowRadius="7"
+        android:text="Select your time of day from the following:"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- List of time of day options -->
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="204dp"
+        android:shadowColor="#0b0b0b"
+        android:shadowRadius="7"
+        android:text="Morning"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="232dp"
+        android:shadowColor="#0b0b0b"
+        android:shadowRadius="7"
+        android:text="Mid-Morning"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="260dp"
+        android:shadowColor="#0b0b0b"
+        android:shadowRadius="7"
+        android:text="Afternoon"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="288dp"
+        android:shadowColor="#0b0b0b"
+        android:shadowRadius="7"
+        android:text="Mid-Afternoon"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="316dp"
+        android:shadowColor="#0b0b0b"
+        android:shadowRadius="7"
+        android:text="Evening"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="500dp"
+        android:shadowColor="#0b0b0b"
+        android:shadowRadius="7"
+        android:text="YOUR MEAL IS:"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- EditText for user to input time of day-->
+    <EditText
+        android:id="@+id/timeInput"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="364dp"
+        android:background="#80000000"
+        android:gravity="center"
+        android:hint="Enter Time of Day"
+        android:inputType="text"
+        android:shadowColor="@color/white"
+        android:shadowRadius="50"
+        android:textColor="#BC9E82"
+        android:textColorHint="#BC9E82"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Button to submit time of day-->
+    <Button
+        android:id="@+id/getmealBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BC9E82"
+        android:text="Get Meal"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <!-- Textview to reveal meal result -->
+
+    <!-- Reset and exit Buttons -->
+    <TextView
+        android:id="@+id/mealResult"
+        android:layout_width="315dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="536dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:shadowColor="#0b0b0b"
+        android:shadowRadius="7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="632dp"
+        android:backgroundTint="#BC9E82"
+        android:text="reset"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="632dp"
+        android:backgroundTint="#BC9E82"
+        android:text="Go Back"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
