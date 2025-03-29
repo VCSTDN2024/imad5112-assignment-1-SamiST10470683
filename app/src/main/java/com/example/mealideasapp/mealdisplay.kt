@@ -1,3 +1,9 @@
+
+/*Display Error message - https://youtu.be/1vhuwRn9xYE?si=JJO8ybVnwuSxNbr7
+* W3 Schools - https://www.w3schools.com
+* mapOf function - https://youtu.be/18h8ZleInKA?si=IHj0X6O-0MEADGZg
+ */
+
 package com.example.mealideasapp
 
 import android.os.Bundle

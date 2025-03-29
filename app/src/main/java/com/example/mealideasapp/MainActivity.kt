@@ -1,3 +1,11 @@
+
+/*setOnClickListener & findViewByID Tutorial - https://youtu.be/Cw3F7NeaI3I?si=AM1wfIaBfORFwNcm
+* Exit Button Tutorial - https://youtu.be/Yx63M4k-EeE?si=nP31E2SQISxRnZHZ
+* Access & Declare UI Elements - https://youtu.be/fUAi_RCCNIg?si=MVpZ6manAeX-KcgI
+* How to move from one activity to another - https://youtu.be/JOdWT50bWw4?si=WYjRpKSvAl_6iJGN
+* W3 Schools - https://www.w3schools.com
+ */
+
 package com.example.mealideasapp
 
 import android.content.Intent
