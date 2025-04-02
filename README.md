@@ -11,7 +11,7 @@
 - **Subject**: [IMAD5112]
 
 ## Links
-- **GitHub Repository**: [https://github.com/VCSTDN2024/imad5112-assignment-1-SamiST10470683]
+- **GitHub Repository**: [https://github.com/VCSTDN2024/imad5112-assignment-1-SamiST10470683.git]
 - **YouTube Video**: [https://youtu.be/iYvCZitDzLY?si=WqAa8u6S2HANhRl_]
 ```
 
