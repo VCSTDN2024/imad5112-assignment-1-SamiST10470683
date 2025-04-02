@@ -4,6 +4,7 @@
 * Access & Declare UI Elements - https://youtu.be/fUAi_RCCNIg?si=MVpZ6manAeX-KcgI
 * How to move from one activity to another - https://youtu.be/JOdWT50bWw4?si=WYjRpKSvAl_6iJGN
 * W3 Schools - https://www.w3schools.com
+* Background Image - https://www.thenordroom.com/a-serene-summer-house-in-sweden/
  */
 
 package com.example.mealideasapp
