@@ -106,7 +106,7 @@ The workflow ensures that my project is automatically built and tested every tim
 *Caption for screenshot 2: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
 
 ### Video Demo:
-A video showcasing the app's functionality can be viewed here: [YouTube Video Link].
+A video showcasing the app's functionality can be viewed here: [https://youtu.be/iYvCZitDzLY?si=WqAa8u6S2HANhRl_].
 ```
 
 ---
